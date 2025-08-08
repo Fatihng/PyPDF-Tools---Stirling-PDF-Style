@@ -1,0 +1,23 @@
+# Temel gereksinimler
+PyPDF2>=3.0.0
+Pillow>=9.0.0
+tkinter  # Python ile birlikte gelir, ancak bazı Linux dağıtımlarında ayrı kurulmalı
+
+# Gelişmiş PDF işlemleri için
+reportlab>=3.6.0
+
+# OCR desteği için
+pytesseract>=0.3.8
+pdf2image>=1.16.0
+
+# Alternatif PDF kütüphanesi (daha hızlı)
+PyMuPDF>=1.20.0
+
+# Sistem bilgileri için (isteğe bağlı)
+psutil>=5.8.0
+
+# Windows için kısayol oluşturma (isteğe bağlı)
+# winshell>=0.6; sys_platform == "win32"
+
+# Numpy (görüntü işleme için)
+numpy>=1.21.0
